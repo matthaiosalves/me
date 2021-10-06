@@ -164,7 +164,7 @@ html {
 .progress-bar {
   width: 60rem;
   height: 3rem;
-  background-color: #ccc;
+  background-color: #e41c6f;
   margin: 1.5rem 0;
   border-radius: 0.3rem;
   box-shadow: 0.2rem 0.2rem 1rem #555;
@@ -172,16 +172,19 @@ html {
 }
 
 .progress-text {
-  position: absolute;
+  position: relative;
   left: 1rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #fff;
+  font-weight: bold;
+  text-align:center;
 }
 
 .progress-text span {
   margin: 0 0.5rem;
   font-size: 1.8rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .progress-percent {
@@ -309,7 +312,7 @@ html {
 }
 
 .project:hover .project-link {
-  bottom: 5rem;
+  bottom: 4rem;
   transition: bottom 0.3s 0.3s;
 }
 /* End of Section 3 */
@@ -486,3 +489,28 @@ html {
   }
 }
 /* End of Responsive */
+
+.contato {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0px 1px 5px 0px #172903;
+  background-color:#e41c6f;
+  border: 5px solid #fff;
+}
+
+.contato .wrapper img{
+  position: relative;
+  z-index: 20;
+  display: block;
+  height: 100%;
+  width: 75%;
+  object-fit: cover;
+  margin: 10px auto;
+  transition: all 0.3s ease;
+}
